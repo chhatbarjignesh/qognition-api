@@ -19,9 +19,9 @@ public class ApiController {
     @GetMapping("/pagination")
     public Map<String, Object> pagination() {
         return Map.of(
-            "page",     0,
-            "size",     10,
-            "total",    0
+            "page",  0,
+            "size",  10,
+            "total", 0
         );
     }
 }
